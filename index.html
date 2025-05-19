@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMC Baarbershop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/255269bd13.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <section class="home" id="home">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="container">
+                    <img src="logo.webp" alt="PMC">
+                </div>
+                <div class="list_container hide-at-mobile">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="additionals hide-at-mobile">
+                    <ul class="nav-links">
+                        <li>
+                            <i class="fa-solid fa-palette"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-globe"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone color"></i> +19408081569
+                        </li>
+                        <li>
+                            <button>Book an Appointment</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-button hide-at-desktop" onclick="openNavbar()">
+                    <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path fill="#f4bf37"
+                            d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+        <div class="home_div">
+            <div class="text_div">
+                <h3 class="color">Premium Barber Services in Denton</h3>
+                <h2>Classic Cuts, Modern Style</h2>
+                <h1 class="color blink-underline">Premium Barber Shop</h1>
+                <p>At PMC Barbershop, we combine traditional barbering techniques with modern styling to give you the
+                    perfect look. Our experienced barbers deliver precision cuts, beard grooming, and relaxing hot towel
+                    shaves in a classic barbershop atmosphere.</p>
+                <button class="location"><i class="fa-solid fa-location-dot color"></i> Denton, TX</button><br>
+                <button class="serv_button"><i class="fa-solid fa-phone"></i> Our Services</button>
+                <button class="book_button"><i class="fa-solid fa-phone"></i> Book Now</button>
+                <div class="arrow">
+                    <a href="#about"><i class="fa-solid fa-arrow-down color blink"></i></a>
+                </div>
+            </div>
+            <div class="image_div">
+                <img src="hero.webp" alt="image">
+            </div>
+        </div>
+    </section>
+    <a href="#home" class="scroll-top-arrow" id="scrollArrow">
+        <i class="fa-solid fa-arrow-up"></i></i>
+    </a>
+    <section class="about" id="about">
+        <div class="abt-circle">
+            <div class="about_page">
+                <h4 class="color small-heading">Our Story</h4>
+                <h1 class="underline-hover main-heading">About PMC Barbershop</h1>
+                <p class="desc">Established in 2018, PMC Barbershop has been providing premium grooming services to the
+                    men of Denton, TX. Our mission is to deliver exceptional haircuts and grooming services in a
+                    welcoming, classic barbershop environment.</p>
+                <div class="extra-content">
+                    <div class="abt-img">
+                        <div class="small-div">
+                            <b>5+ years</b>
+                        </div>
+                    </div>
+                    <div class="abt-txt">
+                        <p class="first-abt-div">Established in 2018, PMC Barbershop has been providing premium grooming
+                            services to the men of Denton, TX. Our mission is to deliver exceptional haircuts and
+                            grooming services in a welcoming, classic barbershop environment.</p>
+                        <div class="sec-abt-div">
+                            <i class="fa-solid fa-quote-left color"></i> <br>
+                            <p>
+                                We take pride in our attention to detail and personalized service, ensuring each client
+                                leaves looking and feeling their best. Our skilled barbers combine traditional
+                                techniques with modern trends to create custom styles that suit each individual's
+                                personality and lifestyle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service" id="service">
+        <div class="service-div-first">
+            <div class="top-right-circle"></div>
+            <h4 class="color small-heading">Premium Grooming</h4>
+            <h1 class="underline-hover main-heading">Our Barber Services</h1>
+            <p class="desc">
+                Professional barbering services to keep you looking sharp for everyday confidence or special occasions.
+            </p>
+            <div class="services-div">
+                <div class="ser-div-one ser-divs-one">
+                    <div class="icon">
+                        <img src="hair-styling-icon.svg" alt="icon">
+                    </div>
+                    <h3 class="ser-div-heading">Haircuts</h3>
+                    <p class="ser-div-para">
+                        Our skilled barbers deliver precision haircuts tailored to your style and face shape. From
+                        classic cuts to modern fades, we ensure you leave looking sharp and confident.
+                    <ul class="ser-div-list">
+                        <li>Classic Cuts</li>
+                        <li>Modern Styles</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="ser-div-two ser-divs-one">
+                    <div class="icon">
+                        <img src="makeup-icon.svg" alt="icon">
+                    </div>
+                    <h3 class="ser-div-heading">Beard Services</h3>
+                    <p class="ser-div-para">
+                        Maintain your facial hair with our premium beard services. Our barbers specialize in perfect
+                        beard shaping, precise trims, and luxurious hot towel shaves for the ultimate grooming
+                        experience.
+                    <ul class="ser-div-list">
+                        <li>Beard Trims</li>
+                        <li>Beard Shaping</li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="ser-div-three ser-divs-one">
+                    <div class="icon">
+                        <img src="skincare-icon.svg" alt="icon">
+                    </div>
+                    <h3 class="ser-div-heading">Premium Services</h3>
+                    <p class="ser-div-para">
+                        Enhance your look with our premium barbering services including expert hair coloring,
+                        revitalizing scalp treatments, and styling for special occasions when you need to look your
+                        absolute best.
+                    <ul class="ser-div-list">
+                        <li>Hair Coloring</li>
+                        <li>Scalp Treatments</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="service-div-second">
+            <div class="top-right-circle"></div>
+            <div class="bottom-right-circle"></div>
+            <h3 class="color small-heading">Our Commitment</h3>
+            <h1 class="underline-hover main-heading">Why Choose PMC Barbershop?</h1>
+            <p class="desc"> What makes us the premier barbershop in Denton, TX.</p>
+            <div class="services-div">
+                <div class="ser-div-one ser-divs-two">
+                    <div class="icon">
+                        User
+                    </div>
+                    <h3 class="ser-div-heading">Expert Barbers</h3>
+                    <p class="ser-div-para">
+                        Our team consists of certified barbers with years of experience in classic and modern cutting
+                        techniques, beard grooming, and men's styling.
+                    </p>
+                </div>
+                <div class="ser-div-two  ser-divs-two">
+                    <div class="icon">
+                        Scissors
+                    </div>
+                    <h3 class="ser-div-heading">Premium Tools & Products</h3>
+                    <p class="ser-div-para">
+                        We use only high-quality barbering tools and premium men's grooming products to ensure the best
+                        results for your hair and skin.
+                    </p>
+                </div>
+                <div class="ser-div-three ser-divs-two">
+                    <div class="icon">
+                        Home
+                    </div>
+                    <h3 class="ser-div-heading">Classic Barbershop Experiences</h3>
+                    <p class="ser-div-para">
+                        Enjoy a comfortable, clean shop with a classic barbershop atmosphere where you can relax while
+                        getting a great cut or shave.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="service-div-third">
+            <h3 class="color small-heading">Testimonials</h3>
+            <h1 class="underline-hover main-heading">What Our Clients Says?</h1>
+            <div class="services-div">
+                <div class="ser-div-one ser-test-card">
+                    <div class="test-par">
+                        <i class="fa-solid fa-quote-left quotes left"></i>
+                        <br>
+                        <i class="text"> I've been getting my hair cut at PMC Barbershop for over 2 years now. The
+                            attention to detail is unmatched, and the atmosphere is always welcoming. My barber
+                            remembers exactly how I like my fade every time! </i> <br><br>
+                        <i class="fa-solid fa-quote-right quotes right"></i>
+                    </div>
+                    <div class="ratings">
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="name">
+                            Mike Johnson
+                        </span>
+                    </div>
+                </div>
+                <div class="ser-div-two ser-test-card">
+                    <div class="test-par">
+                        <i class="fa-solid fa-quote-left quotes left"></i>
+                        <br>
+                        <i class="text"> As someone who's particular about their haircut, I was nervous trying a new
+                            place. The team at PMC took their time to understand what I wanted and delivered exactly
+                            that. Will definitely be coming back!</i> <br><br>
+                        <i class="fa-solid fa-quote-right quotes right"></i>
+                    </div>
+                    <div class="ratings">
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="name">
+                            David Martinez
+                        </span>
+                    </div>
+                </div>
+                <div class="ser-div-three ser-test-card">
+                    <div class="test-par">
+                        <i class="fa-solid fa-quote-left quotes left"></i>
+                        <br>
+                        <i class="text"> The hot towel shave experience at PMC Barbershop is phenomenal! It's the
+                            perfect blend of old-school barbering with modern techniques. My beard has never looked
+                            better.</i> <br><br>
+                        <i class="fa-solid fa-quote-right quotes right"></i>
+                    </div>
+                    <div class="ratings">
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+                        <span class="name">
+                            Chris Taylor
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="service-div-fourth">
+            <h3 class="color small-heading">Quality Barbering at Fair Prices</h3>
+            <h1 class="underline-hover main-heading">Our Service Prices</h1>
+            <p class="desc"> Choose from our range of professional barbering services.</p>
+            <div class="pricing-container">
+                <div class="ser-price-one pricing-card highlight">
+                    <div class="tag">Most Popular</div>
+                    <h2>Classic Services</h2>
+                    <div class="price">$<span>25</span><small>/mo</small></div>
+                    <ul>
+                        <li>Men's Haircut</li>
+                        <li>Kids Haircut (12 & under)</li>
+                        <li>Senior Haircut (65+)</li>
+                        <li>Military/First Responder Cut</li>
+                        <li>Basic Beard Trim</li>
+                        <li>Neck & Line Cleanup (between cuts)</li>
+                    </ul>
+                    <button class="btn">Book Now</button>
+                </div>
+                <div class="ser-price-two pricing-card">
+                    <h2>Packages</h2>
+                    <div class="price">$<span>50</span><small>/mo</small></div>
+                    <ul>
+                        <li>The Works (Cut, Shave, Treatment)</li>
+                        <li>Father & Son Combo</li>
+                        <li>Groom's Package</li>
+                        <li>Monthly Membership (2 cuts/mo)</li>
+                        <li>First-Time Client Special</li>
+                        <li>Loyalty Program</li>
+                    </ul>
+                    <button class="btn disabled">Inquire</button>
+                </div>
+                <div class="ser-price-three pricing-card">
+                    <h2>Premium Services</h2>
+                    <div class="price">$<span>35</span><small>/mo</small></div>
+                    <ul>
+                        <li>Haircut & Beard Combo</li>
+                        <li>Hot Towel Shave</li>
+                        <li>Full Beard Shaping & Design</li>
+                        <li>Color Camo (Gray Blending)</li>
+                        <li>Hair & Scalp Treatment</li>
+                        <li>Head Shave with Hot Towel</li>
+                    </ul>
+                    <button class="btn disabled">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="gallery-one-div">
+            <h3 class="color small-heading">Our Work & Shop</h3>
+            <h1 class="underline-hover main-heading">Our Barbershop Gallery</h1>
+            <p class="desc"> Take a look at our shop atmosphere and the quality cuts we deliver to our clients.</p>
+            <div class="gallery-picture div-flexing">
+                <div class="gallery-item overlay-item">
+                    <img src="gallery1.webp" alt="Barbershop outside view" />
+                    <div class="overlay">
+                        <span>🔍 View</span>
+                    </div>
+                </div>
+                <div class="gallery-item overlay-item">
+                    <img src="_MG_5113.webp" alt="Barbershop outside view" />
+                    <div class="overlay">
+                        <span>🔍 View</span>
+                    </div>
+                </div>
+                <div class="gallery-item overlay-item">
+                    <img src="gallery3.webp" alt="Barbershop outside view" />
+                    <div class="overlay">
+                        <span>🔍 View</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="imageModal" class="modal">
+            <span class="modal-close" id="closeModal">&times;</span>
+            <img class="modal-content" id="modalImg" />
+            <span class="nav-btn prev" id="prevBtn">&#10094;</span>
+            <span class="nav-btn next" id="nextBtn">&#10095;</span>
+        </div>
+        <div class="gallery-two-div">
+            <h3 class="color small-heading">Expert Stylists</h3>
+            <h1 class="underline-hover main-heading">Meet Our Barbers</h1>
+            <p class="desc"> Our team of skilled barbers is dedicated to providing you with the perfect cut and grooming
+                experience.</p>
+            <div class="div-flexing">
+                <div class="team-card">
+                    <img src="gallerydiv2.1.avif" alt="Jason Rodriguez" />
+                    <div class="card-content">
+                        <div class="card-divider"></div>
+                        <h3>Jason Rodriguez</h3>
+                        <p class="title">Owner & Master Barber</p>
+                        <p class="para-desc">
+                            With over 15 years of experience, Jason founded PMC Barbershop to bring premium men's
+                            grooming services to Denton. Specializing in classic cuts and...
+                        </p>
+                        <div class="social-icons">
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="gallerydiv2.3.avif" alt="Marcus Williams" />
+                    <div class="card-content">
+                        <div class="card-divider"></div>
+                        <h3>Marcus Williams</h3>
+                        <p class="title">Senior Barber</p>
+                        <p class="para-desc">
+                            Marcus brings 8 years of experience to PMC Barbershop. His expertise in fades, beard
+                            sculpting, and precision lineup work has earned him a loyal...
+                        </p>
+                        <div class="social-icons">
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="gallerydiv2.2.avif" alt="Terrence Jackson" />
+                    <div class="card-content">
+                        <div class="card-divider"></div>
+                        <h3>Terrence Jackson</h3>
+                        <p class="title">Barber & Stylist</p>
+                        <p class="para-desc">
+                            Terrence specializes in modern men's styling, textured cuts, and hair designs. With his
+                            creative approach and technical skill, he excels at transforming your look...
+                        </p>
+                        <div class="social-icons">
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-third-div">
+            <h3 class="color small-heading">Visit Our Shop</h3>
+            <h1 class="underline-hover main-heading">Our Location</h1>
+            <p class="desc"> Conveniently located in Denton, TX:</p>
+            <div class="contact-container">
+                <div class="map-card">
+                    <div class="map-placeholder">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <h2>Contact Information</h2>
+                    <div class="underline"></div>
+
+                    <div class="contact-item">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Address</h4>
+                            <p>518 Acme St unit 101, Denton, TX 76205, United States</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 940-808-1569</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-buttons">
+                        <button class="btn yellow">
+                            <i class="fa-solid fa-location-arrow"></i> Get Directions
+                        </button>
+                        <button class="btn dark">
+                            <i class="fa-solid fa-phone"></i> Call Us
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-fourth-div">
+            <h3 class="color small-heading">Common Questions</h3>
+            <h1 class="underline-hover main-heading">Frequently Asked Questions</h1>
+            <p class="desc">Answers to common questions about our barbershop services.</p>
+
+            <div class="faq-section">
+                <input type="text" placeholder="Search for questions..." class="faq-search" />
+
+                <div class="faq-filters">
+                    <button class="filter active">All Questions</button>
+                    <button class="filter">General</button>
+                    <button class="filter">Services</button>
+                    <button class="filter">Pricing</button>
+                    <button class="filter">Support</button>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item" data-category="general">
+                        <button class="faq-question">Do I need an appointment or can I walk in?</button>
+                        <div class="faq-answer">Most of our locations accept walk-ins, but we recommend making an
+                            appointment.</div>
+                    </div>
+
+                    <div class="faq-item" data-category="general">
+                        <button class="faq-question">How long does a typical haircut take?</button>
+                        <div class="faq-answer">On average, a haircut takes about 30–45 minutes.</div>
+                    </div>
+
+                    <div class="faq-item" data-category="services">
+                        <button class="faq-question">What form of payment do you accept?</button>
+                        <div class="faq-answer">We accept credit cards, debit cards, and digital wallets.</div>
+                    </div>
+
+                    <div class="faq-item" data-category="pricing">
+                        <button class="faq-question">Do you offer any loyalty programs or discounts?</button>
+                        <div class="faq-answer">Yes, we offer loyalty rewards and seasonal discounts. Check our app or
+                            site.</div>
+                    </div>
+
+                    <div class="faq-item" data-category="support">
+                        <button class="faq-question">What hair products do you use and sell?</button>
+                        <div class="faq-answer">We use and sell premium brands like Redken, Paul Mitchell, and American
+                            Crew.</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-div-one">
+            <h3 class="color small-heading">Book Your Appointment</h3>
+            <h1 class="underline-hover main-heading">Contact Us</h1>
+            <p class="desc">Ready for a fresh look? Book your appointment today or contact us for any questions.</p>
+            <div class="contact-container">
+                <!-- Left Info Panel -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <div>
+                            <h4>Address</h4>
+                            <p>518 Acme St unit 101, Denton, TX 76205, United States</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon"><i class="fas fa-phone"></i></span>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+19408081569</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon"><i class="fas fa-clock"></i></span>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Mon–Fri: 9:00 AM - 7:00 PM, Sat: 9:00 AM - 5:00 PM, Sun: Closed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Contact Form -->
+                <form class="contact-form">
+                    <label>Your Name
+                        <input type="text" placeholder="Enter your full name" required />
+                    </label>
+
+                    <label>Phone Number
+                        <input type="tel" placeholder="Enter your phone number" required />
+                    </label>
+
+                    <label>Service Interested In
+                        <select class="custom-select" required>
+                            <option value="" disabled selected hidden>Select an option</option>
+                            <option>Haircut</option>
+                            <option>Beard Trim</option>
+                            <option>Hot Towel Shave</option>
+                            <option>Haircut & Beard Combo</option>
+                            <option>Kid's Haircut</option>
+                            <option>Senior Haircut</option>
+                            <option>Other</option>
+                        </select>
+                    </label>
+
+                    <label>Preferred Date
+                        <input type="date" required style="color: black;" />
+                    </label>
+
+                    <label>Message
+                        <textarea
+                            placeholder="Tell us about your style preferences or any questions you have"></textarea>
+                    </label>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Ready for a Fresh Cut?</h1>
+            <p>
+                Visit PMC Barbershop for premium men's grooming services. Our expert barbers are ready to <br />
+                give you a clean, precise cut and a relaxing barbershop experience.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btns btn-white">Book an Appointment</a>
+                <a href="#service" class="btns btn-black">View Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col company">
+                <img src="logo.webp" alt="Company Logo" class="logo" />
+                <p>Classic cuts with modern style</p>
+                <div class="social-icons-footer social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p style="margin-bottom: 25px;"><i class="fas fa-map-marker-alt"></i> 518 Acme St unit 101, Denton, TX
+                    76205, United States</p>
+                <p><i class="fas fa-phone"></i> +1 940-808-1569</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter to receive updates and news.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email" />
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 PMC Barbershop. All rights reserved.</p>
+            <ul class="footer-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="navbar-overlay hide-at-desktop hide-at-mobile">
+        <div class="mobile-navbar">
+            <div class="section-1">
+                <img class="mobile-navbar-logo" src="logo.webp" alt="">
+                <div onclick="closeNavbar()">
+                    <svg class="cross-icon" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                        <path fill="#ffffff"
+                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="section-2">
+                <p>Menu</p>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Gallery</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="section-3">
+                <div class="phone">
+                    <p>
+                        <i class="fa-solid fa-phone" style="color: #f4bf37;"></i>
+                        +19408081569
+                    </p>
+                </div>
+                <div class="preferences">
+                    <p>Preferences</p>
+                    <div class="preferences-icons">
+                        <i class="fa-solid fa-palette"></i>
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                </div>
+                <div class="book-appointment">
+                    <p>Book an Appointment</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
